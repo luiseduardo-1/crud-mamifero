@@ -1,10 +1,11 @@
 {
+  
   "name": "crud-mamifero",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "fastify start server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,12 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@prisma/client": "^4.14.1",
+    "fastify": "^4.17.0",
+    "fastify-cli": "^5.7.1",
     "pg": "^8.11.0"
   }
+  
+
 }
